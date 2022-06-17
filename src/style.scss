@@ -1,0 +1,70 @@
+@import "~antd/dist/antd.css";
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+$primary-color: #4099ff;
+$primary-color-lite: rgba(64, 153, 255, 0.2);
+$primary-color-hover: #1a85ff;
+$secondary-color: #f0821f;
+$secondary-color-hover: #ce6e18;
+$approve-color: #359a05;
+$font-color: #888;
+$side-panel-bg: #3f4d67;
+$side-panel-font-color: #a9b7d0;
+$body-bg: #f4f7fa;
+$heading-font-color: #111;
+$header-font-color: #3f4d67;
+$side-sub-panel-bg: #39465e;
+$side-sub-panel-font-color: #a9b7d0;
+$border-color: #f0f0f0;
+$success-color: #2ed8b6;
+$danger-color: #ff5370;
+$danger-color-hover: #f52b4d;
+// Common Style Start
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  background: $body-bg;
+  color: $font-color;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $font-color;
+}
+
+table{
+  width:100%
+}
+
+.table-responsive{
+  overflow-x: hidden;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+a,
+button,
+img,
+input {
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+// Overall Style End
